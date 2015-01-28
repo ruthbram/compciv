@@ -31,7 +31,7 @@ cat data-hold/legislators-current.json | jq '.[] .bio .birthday' | sort -r | hea
 # 6. In legislators-current.json, print the list of religious affiliations - including null, in descending-order of frequency
 
 echo '6.'
-cat data-hold/legislators-current.json | jq '.[] .bio .religion' | uniq -c | sort -r | tr -d '"'
+cat data-hold/legislators-current.json | jq '.[] .bio .religion' | sort | uniq -c| sort -n -r
 
 
 # 7. * In legislators-current.json, Print the number of incoming Congressmembers
@@ -42,8 +42,7 @@ cat data-hold/legislators-current.json | jq --raw-output '.[] .terms[0] .start' 
 # 8. In legislators-current.json, Print the start year of the longest-serving Congressmember
 
 echo '8.'
-cat data-hold/legislators-current.json | jq '.[] .terms[0] .start' | sort -r | head -n 1 | cut -d '-' -f 1 | tr -d '"'
-
+cat data-hold/legislators-current.json | jq --raw-output '.[] .terms[0] .start' | uniq | sort | cut -d '-' -f 1 | head -n 1
 
 # 9. * In legislators-current.json, print the number of Republican congressmembers
 
@@ -84,7 +83,7 @@ cat data-hold/legislators-social-media.json | jq --raw-output '.[] | [.id .biogu
 # 15. In legislators-social-media.json, repeat Step 14, but filter it to print only the lines that do not have a Twitter account listed
 
 echo '15.'
-cat data-hold/legislators-social-media.json | jq --raw-output '.[] | [.id .bioguide, .social .twitter] | @csv' | grep '-v' '[.social .twitter]'| head -n 10
+cat data-hold/legislators-social-media.json | jq --raw-output '.[] | [.id .bioguide, .social .twitter] | @csv' | grep '-v' '[.social .twitter]'| head -n 16
 
 
 # 16. * In congress-twitter-profiles.json, print the number of verified Twitter accounts.
