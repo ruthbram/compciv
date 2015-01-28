@@ -20,281 +20,31 @@
 1980-03-01
 1980-01-30
 6.
-    162 null
-      8 null
-      6 null
-      6 null
-      5 null
-      5 null
-      5 null
-      5 null
-      4 null
-      4 null
-      4 null
-      4 null
-      4 null
-      3 null
-      3 null
-      3 null
-      3 null
-      3 null
-      3 null
-      3 null
-      3 null
-      3 null
-      3 null
-      3 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 null
-      2 Roman Catholic
-      2 Roman Catholic
-      2 Roman Catholic
-      2 Roman Catholic
-      2 Roman Catholic
-      2 Roman Catholic
-      2 Methodist
-      2 Catholic
-      2 Baptist
-      2 Baptist
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 null
-      1 Unknown
-      1 Unknown
-      1 Unknown
-      1 Unknown
-      1 Unknown
-      1 United Methodist
-      1 Southern Baptist
-      1 Southern Baptist
-      1 Seventh Day Adventist
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Roman Catholic
-      1 Protestant
-      1 Protestant
-      1 Protestant
-      1 Protestant
-      1 Protestant
-      1 Protestant
-      1 Presbyterian
-      1 Presbyterian
-      1 Presbyterian
-      1 Presbyterian
-      1 Presbyterian
-      1 Presbyterian
-      1 Presbyterian
-      1 Presbyterian
-      1 Presbyterian
-      1 Presbyterian
-      1 Presbyterian
-      1 Presbyterian
-      1 Presbyterian
-      1 Presbyterian
-      1 Nazarene
-      1 Methodist
-      1 Methodist
-      1 Methodist
-      1 Methodist
-      1 Methodist
-      1 Methodist
-      1 Methodist
-      1 Methodist
-      1 Methodist
-      1 Methodist
-      1 Methodist
-      1 Methodist
-      1 Methodist
-      1 Methodist
-      1 Methodist
-      1 Methodist
-      1 Methodist
-      1 Lutheran
-      1 Lutheran
-      1 Lutheran
-      1 Lutheran
-      1 Lutheran
-      1 Lutheran
-      1 Latter Day Saints
-      1 Latter Day Saints
-      1 Latter Day Saints
-      1 Latter Day Saints
-      1 Latter Day Saints
-      1 Latter Day Saints
-      1 Latter Day Saints
-      1 Jewish
-      1 Jewish
-      1 Jewish
-      1 Jewish
-      1 Jewish
-      1 Jewish
-      1 Jewish
-      1 Jewish
-      1 Jewish
-      1 Jewish
-      1 Jewish
-      1 Jewish
-      1 Jewish
-      1 Jewish
-      1 Jewish
-      1 Episcopalian
-      1 Episcopalian
-      1 Episcopalian
-      1 Episcopalian
-      1 Episcopalian
-      1 Episcopalian
-      1 Episcopalian
-      1 Episcopalian
-      1 Episcopalian
-      1 Episcopalian
-      1 Episcopalian
-      1 Episcopalian
-      1 Episcopalian
-      1 Episcopalian
-      1 Episcopalian
-      1 Episcopal
-      1 Church of Christ
-      1 Christian
-      1 Christian
-      1 Christian
-      1 Christian
-      1 Christian
-      1 Christian Scientist
-      1 Christian Scientist
-      1 Catholic
-      1 Catholic
-      1 Catholic
-      1 Catholic
-      1 Catholic
-      1 Catholic
-      1 Catholic
-      1 Catholic
-      1 Catholic
-      1 Catholic
-      1 Catholic
-      1 Catholic
-      1 Catholic
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 Baptist
-      1 African Methodist Episcopal
-      1 African Methodist Episcopal
-      1 African Methodist Episcopal
+    355 null
+     42 "Roman Catholic"
+     24 "Baptist"
+     19 "Methodist"
+     15 "Jewish"
+     15 "Episcopalian"
+     15 "Catholic"
+     14 "Presbyterian"
+      7 "Latter Day Saints"
+      6 "Protestant"
+      6 "Lutheran"
+      5 "Unknown"
+      5 "Christian"
+      3 "African Methodist Episcopal"
+      2 "Southern Baptist"
+      2 "Christian Scientist"
+      1 "United Methodist"
+      1 "Seventh Day Adventist"
+      1 "Nazarene"
+      1 "Episcopal"
+      1 "Church of Christ"
 7.
 64
 8.
-2015
+1965
 9.
 301
 10.
@@ -336,6 +86,12 @@ http://barr.house.gov/rss.xml
 "B001245",
 "G000546",
 "W000810",
+"V000127",
+"C001075",
+"F000457",
+"K000367",
+"G000555",
+"G000556",
 16.
 463
 17.
