@@ -8,7 +8,7 @@ elif [[ "$#" -eq 1 ]]; then
 
 # There are 2 arguments
 elif [[ "$#" -eq 2 ]]; then
-  echo "There are two argument: $1 and $2"
+  echo "There are two arguments: $1 and $2"
 
   if [[ $1 -eq $2 ]]; then
     echo "$1 is equal to $2"
