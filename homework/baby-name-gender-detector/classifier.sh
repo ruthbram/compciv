@@ -7,7 +7,7 @@ else
 	for name in "$@"
 	do
 	name_matches=$(cat $datafile | grep "$name")
-	
+
 	m_count=0
 	f_count=0
 
