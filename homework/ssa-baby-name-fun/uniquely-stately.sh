@@ -1,4 +1,3 @@
-state=$1
-year=$2
-
-cat data-hold/names-by-state/IA.TXT | grep 2013
+sort "data-hold/names-nationwide/yob$1.txt" | cut -d ',' -f 1,2 > "data-hold/lost-$1.txt"
+sort "data-hold/names-nationwide/yob$2.txt" | cut -d ',' -f 1,2 > "data-hold/lost-$2.txt"
+grep -Fvf "data-hold/lost-$2.txt" "data-hold/lost-$1.txt"
