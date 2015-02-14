@@ -1,9 +1,10 @@
 #assign variable and make directory
 username=$1
 mkdir -p ./data-hold
-echo "Fetching tweets for $1 into ./data-hold/$1"
 file="./data-hold/$1"
 
+#fetch & analyze tweetsy
+echo "Fetching tweets for $1 into ./data-hold/$1"
 t timeline -n 3200 --csv $1 > data-hold/$1
 count=$(csvfix order -f 1 $file | wc -l)
 lastdate=$(csvfix order -fn 'Posted at' $file | tail -n 1)
