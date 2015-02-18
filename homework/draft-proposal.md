@@ -12,7 +12,7 @@ There is a large percentage of California's public school population dropping ou
 and it's an issue that's difficult to solve. Nonetheless, I wanted to find out why 
 there were so many students dropping out. From 2009 to 2012 I visited schools and 
 spoke to students about staying in school. Since I was a performing musician, I 
-knew how music and changed my life and kept me going strong in school; so I developed 
+knew how music had changed my life and kept me going strong in school; so I developed 
 several music education programs that could help students engage in their schoolwork 
 and enjoy learning. 
 
