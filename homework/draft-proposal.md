@@ -27,20 +27,20 @@ http://www.cde.ca.gov/fg/aa/ca/artsandmusic.asp
 Process:
 
 Part 1:
-Download documents with the list of schools
-Download addresses of high schools
-Download data of Art and Music grants 
+Download documents with the list of schools, 
+Download addresses of high schools, 
+Download data of Art and Music grants  
 
 Separate documents by academic year. There should be four.
 The reason for doing this is, at the end, we want to see the change over 
 time in regards to number of dropouts and amount music funding. 
 
 Part 2:
-Combine address of high schools with the list of schools
-Create Excel doc with 
-1.	the top 20 schools that have the highest dropout rate
-2.	the addresses
-3.	the total amount of music funding
+Combine address of high schools with the list of schools, 
+Create Excel doc with:  
+1. the top 20 schools that have the highest dropout rate, 
+2. the addresses, 
+3. the total amount of music funding
 
 Part 3:
 Create a Google fusion table that shows this data with dots on the graph. 
