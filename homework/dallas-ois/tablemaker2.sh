@@ -1,3 +1,4 @@
+
 echo 'case_number|date|location|suspect_status|suspect_weapon|suspects|officers|grand_jury|latitude|longitude|narrative'
 # > tables/incidents.psv
 
@@ -18,8 +19,8 @@ cat data-hold/*.html | pup 'table table tr json{}' | jq  --raw-output '.[] .chil
 echo "$incident"
 
 blah="geocodes.psv"
-latitude=$(cat tables/$blah | grep  -f 2)
-longitude=$(cat tables/$blah | grep  -f 3)
+latitude=$(cat geocodes.psv/$blah | csvfix sort -f 2)
+longitude=$(cat tables/$blah | csvfix sort -f 3)
 
 blob="data-hold/pdfs/OIS_year_$.txt"
 narrative=$(cat $blob | grep 'narrative')
