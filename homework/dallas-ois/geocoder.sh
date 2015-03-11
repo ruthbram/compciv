@@ -23,6 +23,6 @@ cat data-hold/*.html | pup 'table table tr json{}' | jq  --raw-output '.[] .chil
   curl -s "$url" > data-hold/geocodes/$fname
   echo $fname
    # curl -s "$url" >> data-hold/geocodes/geocodes.json
-sleep 1
+
 done
 
