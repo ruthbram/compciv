@@ -63,15 +63,12 @@ while read -r officer
 do
 case_number=$(echo $officer | cut -d '|' -f 1)
 date=$(echo $officer| cut -d '|' -f 2)
-location=$(echo $officer | cut -d '|' -f 3)
-suspect_status=$(echo $officer | cut -d '|' -f 4)
+suspect_killed=$(echo $officer | cut -d '|' -f 4)
 suspect_weapon=$(echo $officer | cut -d '|' -f 5)
-suspects=$(echo $officer | cut -d '|' -f 6)
-officers=$(echo $officer | cut -d '|' -f 7)
-grand_jury=$(echo $officer | cut -d '|' -f 8)
-latitude=$(echo $officer | cut -d '|' -f 9)
-longitude=$(echo $officer | cut -d '|' -f 10)
-narrative=$(echo $officer | cut -d '|' -f 11)
+last_name=$(echo $officer | cut -d '|' -f 6)
+first_name=$(echo $officer | cut -d '|' -f 9)
+race=$(echo $officer | cut -d '|' -f 10)
+gender=$(echo $officer | cut -d '|' -f 11)
 </tr>
 </p>
 </body>
@@ -98,13 +95,10 @@ while read -r suspects
 do
 case_number=$(echo $suspect | cut -d '|' -f 1)
 date=$(echo $suspect | cut -d '|' -f 2)
-location=$(echo $suspect | cut -d '|' -f 3)
-suspect_killed=$(echo $suspect | cut -d '|' -f 4)
 suspect_weapon=$(echo $suspect | cut -d '|' -f 5)
 last_name=$(echo $suspect | cut -d '|' -f 6)
 first_name=$(echo $suspect | cut -d '|' -f 7)
-race=$(echo $suspect | cut -d '|' -f 8)
-gender=$(echo $suspect | cut -d '|' -f 9)
+
 </tr>
 </p>
 </body>
