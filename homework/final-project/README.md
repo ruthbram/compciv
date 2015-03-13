@@ -13,7 +13,7 @@ drections for achieving that Excel file with the data. I've also included the
 final results as links below, as well as my findings. Thanks!
 
 
-Bashing Order
+BASHING ORDER
 	 Bash the scraper.sh
 	 Bash the pre-analyzer.sh
 	 Bash the analyzer.sh
@@ -25,7 +25,8 @@ So I chose the top 50 lines for each academic year
 
 Here are my results, in a Fusion Table:
 ** Note that after you click on the link, click on the third tab that says "map1"
-to see the custom map of the data. 
+to see the custom map of the data. I customized the data by "NumDropouts" because
+I wanted to see the change in the number of dropouts of four years.
 
 09-10 data
 https://www.google.com/fusiontables/DataSource?docid=1A4YTEFrxtj4gwmdnsQUlu3DRhkwD4I2EsoFAuMd7
@@ -39,12 +40,23 @@ https://www.google.com/fusiontables/DataSource?docid=1wKKyXq-QqHxb0USWxhBvVNohnA
 12-13 data
 https://www.google.com/fusiontables/DataSource?docid=1z-QRR15IfxrIyqfMCwiX1hBxmioycFJbOGot36Ef
 
+NOTE AFTER BASHING
 Please note, that after I transferred the data to the fusion 
 tables, I had to clean up a few things so that Google could read 
 the data. I also had to erase a few outliers from each academic year.
 As a result, instead of 200 schools, I am down to about 160 schools.
 
+RESULTS
 Results were somewhat interesting. if you open all four links, and put
 them in order from the earliest to latest academic year, you can see that 
-the "red" color (marked with the heatmap option) is more apparent.
+the "red" color (marked with the heatmap option) is more apparent. We can 
+infer from this data that this means the dropout rate increased over time. 
+I do understand that because I only chose only 50 schools from each
+year from the original data, my results may be skewed. However, with the data 
+from the few schools that I did collect, if my graphs are showing that the 
+dropout rate is increasing, what does that mean about the number of graduates? 
+Is his article correct in saying that the graduation rate has reached 80%,
+or has it actually lowered to 80%?
+
+ 
 
