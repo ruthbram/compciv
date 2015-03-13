@@ -22,6 +22,7 @@ cat data-hold/*.html | pup 'table table tr json{}' | jq  --raw-output '.[] .chil
 
  latitude=$(cat $fname | jq '.results[0] .geometry .location .lat')
  longitude=$(cat $fname | jq '.results[0] .geometry .location .lng')
+sleep1
 
  echo "$address|$latitude|$longitude" >> tables/geocodes.psv
 
