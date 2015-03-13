@@ -1,3 +1,5 @@
+#Run this script first, then the pre-analyzer, and then the analyzer.
+
 #Make directory to hold txt files
 mkdir -p data-hold
 cd data-hold

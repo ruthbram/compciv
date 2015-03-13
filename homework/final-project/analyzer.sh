@@ -1,8 +1,4 @@
-#Reference these file names to parse data: 0910cohortdata.txt  1011cohortdata.txt  1112cohortdata.txt  1213cohortdata.txt  locations.txt
-#In each file, I'm looking for CDS, Name, NumGraduates, and NumDropouts.
-#Then I will attach the addresses, located in locations.txt
-#And finally, I will place them in a CSV file titled finaldata.csv
-
+#Run this script after the Pre-Analyzer script
 
 output_file="finaldata.csv"
 rm -f $output_file
